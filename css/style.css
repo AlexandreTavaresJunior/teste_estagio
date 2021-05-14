@@ -1,0 +1,331 @@
+body{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+
+    width: 100%;
+    height: 70px;
+
+}
+
+nav{
+
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+
+}
+
+.logo{
+
+    margin-left: 3%;
+    margin-top: 15px;
+    float: left;
+    max-width: 200px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+
+}
+
+nav p{
+
+    float: right;
+    margin-right: 5%;
+    margin-top: 28px;
+    font-weight: bold;
+
+}
+
+nav ul{
+
+    float: right;
+    margin-right: 2.5%;
+
+}
+
+nav li{
+
+    float: left;
+    padding-left: 20px;
+    margin-top: 30px;
+    
+}
+
+nav a{
+
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    font-weight: 500;
+
+}
+
+nav a:hover{
+
+    color: black;
+    text-decoration: none;
+
+}
+
+.introducao{
+
+    background-image: radial-gradient(
+        rgba(5, 5, 5, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(../imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 375px;
+    
+
+}
+
+.titulo{
+
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 24px;
+
+}
+
+.texto-introducao{
+
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-right: 32%;
+    padding-left: 32%;
+    line-height: 18px;
+    
+}
+
+.botao{
+
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.fale-conosco{
+
+    text-align: center;
+    background-color: #ff8c00;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+
+}
+
+.descricao{
+
+    height: 300px;
+
+}
+
+.conjunto-descricao{
+
+    text-align: center;
+    padding: 1% 0%;
+
+}
+
+.objeto-descricao{
+
+    display: inline-block;
+    width: 12%;
+    margin: 0 1.5%;
+    padding: 20px 30px;
+    text-align: center;
+
+}
+
+.circulo{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ff8c00;
+    display: inline-block;
+
+}
+
+.fa-check{
+
+    color: white;
+    padding-top: 25px;
+    font-size: 25px;
+
+}
+
+.titulo-descricao{
+
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+.texto-descricao{
+
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+
+}
+
+.sobre-nos{
+
+    height: 400px;
+    background-color: #ededed;
+
+}
+
+.sobre-nos-div-texto{
+
+    display: inline;
+    float: left;
+    width: 55%;
+
+}
+
+.sobre-nos-titulo{
+
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10%;
+    padding-left: 8%;
+    color: rgb(73, 73, 73);
+
+}
+
+.sobre-nos-texto{
+
+    font-size: 14px;
+    padding-top: 4%;
+    padding-left: 8%;
+    line-height: 18px;
+    font-weight: 300;
+
+}
+
+.sobre-nos-div-imagem{
+
+    display: inline;
+    float: right;
+    padding-right: 20px;
+
+}
+
+.sobre-nos-imagem{
+
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    padding-top: 10%;
+
+}
+
+.botao-saiba-mais{
+
+    padding-top: 4%;
+    padding-left: 8%;
+
+}
+
+.blog{
+
+    height: 550px;
+
+}
+
+.titulo-blog{
+
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 2%;
+    color: rgb(73, 73, 73);
+    text-align: center;
+
+}
+
+.conjunto-blog{
+
+    text-align: center;
+    padding-top: 1%;
+
+}
+
+.postagem-blog{
+
+    display: inline-block;
+    width: auto;
+    padding: 2%;
+    max-width: 26%;
+
+}
+
+.imagem-blog{
+
+    max-width: 350px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    background-color: #ededed;
+
+}
+
+.texto-blog{
+
+    width: auto;
+    max-width: 350px;
+
+}
+
+.postagem-blog-titulo{
+
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 500;
+    text-align: left;
+    background-color: #ededed;
+    padding: 20px;
+
+}
+
+.postagem-blog-texto{
+
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    text-align: left;
+    background-color: #ededed;
+    padding: 20px;
+
+}
+
+footer{
+
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+
+}

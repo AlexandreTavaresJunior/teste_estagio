@@ -1,0 +1,4 @@
+Utilizando apenas HTML e CSS, tente reproduzir o layout da página enviada. Também estamos enviando por anexo as imagens utilizadas na página. Ao finalizar, crie um repositório no Github com os arquivos utilizados da página e nos envie o link por e-mail.
+
+Dica: Para os ícones, pode ser utilizado o pacote do Font Awesome.
+https://fontawesome.com
